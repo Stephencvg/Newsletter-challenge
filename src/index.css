@@ -1,0 +1,107 @@
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+  font-weight: 700;
+  background-color: hsl(234, 29%, 20%);
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 3em;
+  padding: 2em;
+  color: hsl(234, 29%, 20%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.signin--heading {
+  font-weight: bolder;
+}
+.illustration--image {
+  width: 18rem;
+  height: 30em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+ul > li {
+  list-style-image: url(./assets/images/icon-list.svg);
+}
+/* 
+li::before {
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url(./assets/images/icon-list.svg);
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.btn {
+  background-color: hsl(235, 18%, 26%);
+}
+
+.btn:active {
+  background-color: red;
+}
+
+
+/* Success */
+
+.success {
+  width: 25em;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 5em;
+  color: hsl(234, 29%, 20%);
+  font-weight: 600;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+
+.success-icon {
+  width: 3em;
+}
+
+.success--heading {
+  font-weight: bolder;
+}
+
+.success--email {
+  font-weight: bolder;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+}
+
